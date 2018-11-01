@@ -1,0 +1,21 @@
+{
+  "name": "jesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --notify",
+    "test-memory": "jest --logHeapUsage --runInBand --expose-gc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "~23.3.9",
+    "babel-core": "~6.26.3",
+    "babel-jest": "~23.6.0",
+    "fetch-mock": "~7.2.2",
+    "jest": "~23.6.0",
+    "node-fetch": "~2.2.0"
+  },
+  "dependencies": {}
+}
