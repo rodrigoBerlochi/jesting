@@ -1,0 +1,5 @@
+- created jest.config file
+- installed babel 6 and jest dependencies
+- jest matchers
+- jest async
+- vsc debug profile
