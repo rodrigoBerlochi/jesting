@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot Basic snap 1`] = `
+<a
+  href={
+    Object {
+      "text": "hello!",
+      "url": "http://google1.com.es",
+    }
+  }
+>
+  text
+</a>
+`;
+
+exports[`Snapshot Basic snap 2 1`] = `
+<p>
+  A yellow submarine!
+</p>
+`;

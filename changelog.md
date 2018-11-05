@@ -1,5 +1,14 @@
-- created jest.config file
+- created jest.config file  (jest --init)
 - installed babel 6 and jest dependencies
 - jest matchers
 - jest async
 - vsc debug profile
+- jest @types for easier writing in VSC
+- builtin mocking for modules and functions
+- added configuration and packages to work with react/JSX
+    - babelrc
+    - react-dom, babel-jest, babel-preset-env, babel-preset-react
+    react-text-renderer 
+- snapshot testing
+    - asymetric snapshot testing
+    - interactive mode 

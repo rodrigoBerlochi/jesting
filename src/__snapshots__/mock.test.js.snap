@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mocking Simplified API for mocks 1`] = `
+[MockFunction eggMocked] {
+  "calls": Array [
+    Array [
+      2,
+      5,
+    ],
+  ],
+  "results": Array [
+    Object {
+      "isThrow": false,
+      "value": 7,
+    },
+  ],
+}
+`;
