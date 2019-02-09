@@ -62,4 +62,20 @@ describe('Matchers', () => {
 		}).toThrow('OMG');
 	});
 
+	test('Schemas', () => {
+		const input = {
+			age: 18,
+			language: 'dutch',
+			residence: 'Eindhoven, NL'
+		}
+
+		const schema = {
+			age: expect.any(Number),
+			language: expect.any(String),
+			residence: expect.stringContaining('NL')
+		}
+
+		expect(input).toEqual(schema);
+	})
+
 });

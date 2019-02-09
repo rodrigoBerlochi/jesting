@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Snapshot Asymmetric matchers 1`] = `
+Object {
+  "createdAt": Any<Date>,
+  "id": Any<Number>,
+  "name": "John",
+}
+`;
+
 exports[`Snapshot Basic snap 1`] = `
 <a
   href={
